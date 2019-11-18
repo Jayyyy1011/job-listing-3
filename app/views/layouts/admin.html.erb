@@ -13,22 +13,16 @@
         <div class="container-fluid">
             <%= render "common/navbar" %>
             <%= render "common/flashes" %>
-
             <div class="row">
-              <div class="col-md-2" align="center">
+              <div class="col-md-2">
 
                 <br><br>
                 <br><br>
-                <div class="btn-group-vertical">
 
-                  <div class="btn-group" role="group" aria-label="Basic example">
-
-                    <button type="button" class="btn btn-secondary">admin dashboard</button>
-                    <button type="button" class="btn btn-secondary"><%= link_to("user dashboard", jobs_path ) %></button>
-
-                  </div>
-
-                </div>
+                    <div class="list-group">
+                      <a href="#" class="list-group-item list-group-item-action active">admin dashboard</a>
+                      <a href="/jobs" class="list-group-item list-group-item-action">user dashboard</a>
+                    </div>
 
               </div>
 
