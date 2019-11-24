@@ -19,6 +19,14 @@
 @import "bootstrap";
 @import "font-awesome";
 
+//---------common---------
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+
 //---------Navbar---------
 
 .navbar-default {
@@ -158,12 +166,6 @@ footer .footer-below {
 
 //---------adminaddnewjob---------
 .adminaddnewjob{
-  margin: 40px 0 0;
-
-}
-
-//---------addnewjob---------
-.addnewjob{
   margin: 10px 0 ;
 
 }
