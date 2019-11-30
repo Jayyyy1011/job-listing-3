@@ -142,6 +142,39 @@ body {
       width: 200px;
     }
 }
+//------jobindex-------
+
+.jobbox{
+    background-image: url('https://images.unsplash.com/photo-1500731250117-4b0cbb8b276a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1862&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+    .jobbox-inner {
+        background: #ecf0f1;
+        margin-top: 135px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: 1px 3px 5px #333;
+        border: 5px solid #666;
+        border-radius: 10px;
+        opacity: 0.95;
+    }
+
+    .jobbox-btn{
+      color: #fff;
+      background-color: #607D8B;
+      border-color: #E0E0E0;
+      font-size: 16px;
+      letter-spacing: 1px;
+      width: 100px;
+    }
+
+}
+
+
 //------loginbox-------
 
 .loginbox {
