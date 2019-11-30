@@ -142,6 +142,72 @@ body {
       width: 200px;
     }
 }
+
+//------addnewjob------
+
+.addnewjobbox{
+  background-image: url('https://images.unsplash.com/photo-1500731250117-4b0cbb8b276a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1862&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+  margin-right: -60px;
+
+  .addnewjobbox-inner {
+      background: #ecf0f1;
+      margin-top: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-shadow: 1px 3px 5px #333;
+      border: 5px solid #666;
+      border-radius: 10px;
+      opacity: 0.95;
+  }
+}
+
+//------adminindex-----
+
+.adminbox{
+  background-image: url('https://images.unsplash.com/photo-1500731250117-4b0cbb8b276a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1862&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+  margin-right: -60px;
+
+  .adminbox-inner {
+      background: #ecf0f1;
+      margin-top: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-shadow: 1px 3px 5px #333;
+      border: 5px solid #666;
+      border-radius: 10px;
+      opacity: 0.95;
+  }
+
+  .adminbox-btn{
+      color: #fff;
+      background-color: #4A6BB5;
+      border-color: #4A6BB5;
+      margin-right: 5px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      width: 100px;
+  }
+
+  .adminbox-btn:hover{
+    color: #fff;
+    background-color: #11345f;
+    border-color: #4A6BB5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100px;
+  }
+}
+
 //------jobindex-------
 
 .jobbox{
@@ -308,27 +374,25 @@ body {
     }
 }
 
+//-------sidebar---------
+
+.sidebarbg{
+  background-color: #EEEEEE;
+}
+
 //---------custab---------
 
 .custab{
-  border: 1px solid #ccc;
 
   padding: 5px;
   margin: 3% 0;
-  box-shadow: 3px 3px 2px #ccc;
-
+  box-shadow: 2px 2px 10px 10px #ccc;
   transition: 0.5s;
 }
 
 .custab:hover{
   box-shadow: 3px 3px 0px transparent;
   transition: 0.5s;
-}
-
-//---------adminaddnewjob---------
-.adminaddnewjob{
-  margin: 10px 0 ;
-
 }
 
 //---------btn-homemade------
